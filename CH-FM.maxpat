@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 167.0, 198.0, 1015.0, 388.0 ],
+		"rect" : [ 637.0, 248.0, 1015.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -875,8 +875,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.399999999999977, 734.0, 83.0, 22.0 ],
-					"text" : "s toCH-server"
+					"patching_rect" : [ 8.399999999999977, 734.0, 85.0, 22.0 ],
+					"text" : "s toCH-Server"
 				}
 
 			}
@@ -1201,7 +1201,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-224",
-					"items" : [ "select...", ",", "User008", ",", "IrishTony", ",", "LilNicky" ],
+					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1223,7 +1223,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-223",
-					"items" : [ "select...", ",", "User008", ",", "IrishTony", ",", "LilNicky" ],
+					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1245,7 +1245,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-222",
-					"items" : [ "select...", ",", "User008", ",", "IrishTony", ",", "LilNicky" ],
+					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1267,7 +1267,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-221",
-					"items" : [ "select...", ",", "User008", ",", "IrishTony", ",", "LilNicky" ],
+					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1289,7 +1289,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-220",
-					"items" : [ "select...", ",", "User008", ",", "IrishTony", ",", "LilNicky" ],
+					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1311,7 +1311,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-219",
-					"items" : [ "select...", ",", "User008", ",", "IrishTony", ",", "LilNicky" ],
+					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
