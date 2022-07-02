@@ -19,10 +19,6 @@ In the resulting folder, you will find client resources and demo patches for Max
 
 The Max client can be installed from the Max Package Manager. In order to use the Max examples, make sure to add the **ICMC2022-CH-Workshop** folder to your Max file preferences (with subfolders option checked).  
 
-You may also want to keep this page open in order to follow along during the workshop and reference the different README files.  
-
-<br>
-
 ### Collab-Hub Client Locations
 - <a href="https://github.com/Collab-Hub-io/Collab-Hub-Max-Client" target="_blank">Max client</a>
 - <a href="https://github.com/Collab-Hub-io/Collab-Hub-Pd-Client" target="_blank">Pd client</a>
