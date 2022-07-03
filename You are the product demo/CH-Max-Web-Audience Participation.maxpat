@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 909.0, 778.0 ],
+		"rect" : [ 34.0, 62.0, 1351.0, 849.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,47 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1398.5, 469.0, 216.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 522.0, 297.0, 216.0, 22.0 ],
+					"text" : "https://ch-server.herokuapp.com/touch/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1398.5, 543.0, 129.0, 35.0 ],
+					"text" : ";\rmax launchbrowser $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1431.0, 503.0, 278.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 522.0, 335.0, 278.0, 22.0 ],
+					"text" : "http://ch-server.herokuapp.com/touch/receiver.html"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-114",
@@ -434,7 +475,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.0, 384.0, 50.0, 22.0 ],
-					"text" : "3"
+					"text" : "1"
 				}
 
 			}
@@ -940,13 +981,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 834.0, 624.5, 53.0, 89.0 ],
-					"text" : "push Room2 setInstructions \"just listen\""
+					"patching_rect" : [ 834.0, 624.5, 53.0, 102.0 ],
+					"text" : "push Room2 setInstructions \"play a disjunct melody\""
 				}
 
 			}
@@ -959,7 +1000,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 658.0, 624.5, 51.0, 102.0 ],
-					"text" : "push Room1 setInstructions \"listen and react\""
+					"text" : "push Room1 setInstructions \"imitate someone else\""
 				}
 
 			}
@@ -972,7 +1013,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 467.0, 624.5, 51.0, 102.0 ],
-					"text" : "push Room0 setInstructions \"imitate someone else\""
+					"text" : "push Room0 setInstructions \"listen and react\""
 				}
 
 			}
@@ -1599,6 +1640,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -1796,6 +1844,13 @@
 					"destination" : [ "obj-78", 1 ],
 					"order" : 1,
 					"source" : [ "obj-58", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -2135,13 +2190,6 @@
 				"name" : "CH-Title.png",
 				"bootpath" : "~/GitHub/v-erses-max/media",
 				"patcherrelativepath" : "../../v-erses-max/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "exported_qrcode_image_600 (7).png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../Downloads",
 				"type" : "PNG",
 				"implicit" : 1
 			}
