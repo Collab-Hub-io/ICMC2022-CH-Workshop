@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 637.0, 248.0, 1015.0, 388.0 ],
+		"rect" : [ 391.0, 248.0, 1015.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,35 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 614.0, 362.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 569.399999999999864, 342.0, 86.0, 20.0 ],
+					"text" : "(amplitude)",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 364.0, 80.0, 150.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 339.399999999999977, 32.0, 70.0, 74.0 ],
+					"text" : "(routes by\nusername only if\n\"Flags\"\nenabled)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-202",
 					"maxclass" : "message",
@@ -1201,7 +1230,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-224",
-					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
+					"items" : [ "select...", ",", "You're the Product Receiver", ",", "User013", ",", "User017", ",", "User012", ",", "User008", ",", "User057" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1223,7 +1252,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-223",
-					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
+					"items" : [ "select...", ",", "You're the Product Receiver", ",", "User013", ",", "User017", ",", "User012", ",", "User008", ",", "User057" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1245,7 +1274,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-222",
-					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
+					"items" : [ "select...", ",", "You're the Product Receiver", ",", "User013", ",", "User017", ",", "User012", ",", "User008", ",", "User057" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1267,7 +1296,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-221",
-					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
+					"items" : [ "select...", ",", "You're the Product Receiver", ",", "User013", ",", "User017", ",", "User012", ",", "User008", ",", "User057" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1289,7 +1318,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-220",
-					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
+					"items" : [ "select...", ",", "You're the Product Receiver", ",", "User013", ",", "User017", ",", "User012", ",", "User008", ",", "User057" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1311,7 +1340,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-219",
-					"items" : [ "select...", ",", "IrishTony", ",", "You're the Product Receiver", ",", "User041", ",", "User017", ",", "User009", ",", "hola", ",", "User038" ],
+					"items" : [ "select...", ",", "You're the Product Receiver", ",", "User013", ",", "User017", ",", "User012", ",", "User008", ",", "User057" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4512,6 +4541,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-210", 0 ],
+					"source" : [ "obj-227", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
 					"source" : [ "obj-227", 0 ]
 				}
 
@@ -4519,7 +4555,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-228", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
 					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-213", 0 ],
+					"source" : [ "obj-229", 1 ]
 				}
 
 			}
@@ -4540,6 +4590,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-215", 0 ],
+					"source" : [ "obj-230", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-215", 0 ],
 					"source" : [ "obj-230", 0 ]
 				}
 
@@ -4547,7 +4604,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-225", 0 ],
+					"source" : [ "obj-231", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-225", 0 ],
 					"source" : [ "obj-231", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"source" : [ "obj-232", 1 ]
 				}
 
 			}
